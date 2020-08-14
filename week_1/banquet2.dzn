@@ -1,0 +1,4 @@
+DISH = {CHILIFISHHEAD, SAUSAGE, SEACUCMBER, CHICKEN, FRIEDRICE};
+capacity = 70;
+satisfaction = [18, 16, 14, 13, 6];
+size = [12, 10, 9, 8, 4];

@@ -1,0 +1,46 @@
+enum COLOR = {GREEN, BLUE, PINK, YELLOW};
+
+var COLOR: Si;
+var COLOR: Yan;
+var COLOR: Yu;
+var COLOR: Xu;
+var COLOR: Qing;
+var COLOR: Ji;
+var COLOR: You;
+var COLOR: Bing;
+var COLOR: Yong;
+var COLOR: Liang;
+var COLOR: Yi;
+var COLOR: Jing;
+var COLOR: Yang;
+var COLOR: Jiao;
+
+constraint  Jiao != Yi;
+constraint  Jiao != Jing;
+constraint  Jiao != Yang;
+constraint  Yi != Yong;
+constraint  Yi != Jing;
+constraint  Yong != Jing;
+constraint  Si != Jing;
+constraint  Yu != Jing;
+constraint  Yang != Jing;
+constraint  Yang != Xu;
+constraint  Yang != Yu;
+constraint  Yong != Liang;
+constraint  Yong != Si;
+constraint  Si != Bing;
+constraint  Si != Ji;
+constraint  Si != Yan;
+constraint  Si != Yu;
+constraint  Yan != Yu;
+constraint  Xu != Yu;
+constraint  Xu != Yan;
+constraint  Xu != Qing;
+constraint  Yan != Ji;
+constraint  Yan != Qing;
+constraint  Ji != Bing;
+constraint  Ji != You;
+constraint  Ji != Qing;
+constraint  You != Bing;
+
+solve satisfy;
